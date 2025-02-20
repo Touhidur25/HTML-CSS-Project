@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dde0e2;
+}
+
+
+.container {
+    width: 45%;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px 20px #cbced1,
+    -12px -12px 20px -20px #ffffff;
+}
+
+.display  #screen{
+    width: 95%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.5em;
+    background: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px  #ffffff;
+}
+
+
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row .btn {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btn:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
+
+.row .btn1 {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btn2 {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btn2:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
+
+.row .btn3 {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btn3:hover{
+    background: #fb5200;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.row .btnPlus{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btnPlus:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
+
+.row .btnDivide{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;        
+}
+
+.row .btnDivide:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
+
+.row .btnInto{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btnInto:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
+
+.row .btnMinus{
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.row .btnMinus:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
+
+.row .btn1:hover{
+    background: #fb5200;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.row .btnDot{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.row .btnDot:hover{
+    background: #2be82e;
+    cursor: pointer;
+}
